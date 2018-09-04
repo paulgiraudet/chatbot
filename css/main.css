@@ -96,21 +96,58 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+  margin: auto;
+  background-color: #f2f2f2;
+  width:90%;
+}
 
+.mainContainer {
+  margin:0 auto;
+  background-color:white;
+  border-top:40px solid orange;
+  border-radius:2px;
+  height:500px;
+  margin-top:15px;
+  padding-left:15px;
+  overflow-y:auto;
+}
 
+.controls {
+  margin:0 auto;
+}
 
+textarea {
+  resize:none;
+  width:95%;
+  padding-left:15px;
+  padding-top:15px;
+}
 
+#sendButton {
+  width:5%;
+  background:orange;
+  cursor:pointer;
+  transition:all 0.3s;
+}
 
+#sendButton:hover{
+  box-shadow: 1px 1px 1px 1px #888888;
+}
 
+.username {
+  color:blue;
+  font-weight:bold;
+}
 
+.bot {
+  color:hotpink;
+  font-weight:bold;
+}
 
-
-
-
-
-
-
-
+#threeDots{
+  width:100px;
+}
 
 
 /* ==========================================================================
